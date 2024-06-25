@@ -45,7 +45,7 @@ export const Header = () => {
           <div className="flex gap-[60px] items-center">
             <a href="">
               <img
-                src="/cart_shopping_icon.svg"
+                src="cart_shopping_icon.svg"
                 className=" cursor-pointer"
               ></img>
             </a>

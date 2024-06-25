@@ -59,11 +59,11 @@ export const Footer = () => {
         </div>
         <div className="flex items-center pt-[10px] gap-3 [&>a>img]:cursor-pointer [&>a>img]:w-[32px] [&>a>img]:h-[32px] [&>a>img]:transition-all [&>a>img]:duration-500 [&>a>img]:rounded-lg">
           <a href="">
-            <img src="/instagram_icon.svg" className="hover:bg-insta " alt="" />
+            <img src="instagram_icon.svg" className="hover:bg-insta " alt="" />
           </a>
           <a href="">
             <img
-              src="/whatsapp_icon.svg"
+              src="whatsapp_icon.svg"
               className=" hover:bg-green-400 "
               alt=""
             />

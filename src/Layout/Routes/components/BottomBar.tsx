@@ -2,11 +2,11 @@ export const BottomBar = () => {
   const navLinks = [
     {
       name: "Shop",
-      icon: "/home_icon.svg",
+      icon: "home_icon.svg",
     },
     {
       name: "Search",
-      icon: "/search_icon.svg",
+      icon: "search_icon.svg",
     },
   ];
   return (
