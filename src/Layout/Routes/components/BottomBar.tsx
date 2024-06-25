@@ -31,7 +31,7 @@ export const BottomBar = () => {
         })}
         <a href="" className="flex flex-col items-center gap-[5px]">
           <img
-            src="/mobile_cart.svg"
+            src="mobile_cart.svg"
             className="h-[25px] w-[25px] bg-contain bg-no-repeat"
           ></img>
           <span>Cart</span>
@@ -40,7 +40,7 @@ export const BottomBar = () => {
         <a href="" className="text-brown  flex flex-col items-center gap-[3px]">
           <span>
             <img
-              src="/about.jpg"
+              src="about.jpg"
               className="h-[25px] w-[25px] rounded-[32px]"
               alt=""
             />
