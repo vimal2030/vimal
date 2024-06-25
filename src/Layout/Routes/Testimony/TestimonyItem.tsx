@@ -16,7 +16,7 @@ export const TestimonyItem: React.FC<TestimonyItemProps> = ({ data }) => (
     <div className="text-justify ">{data.feedback}</div>
     <div className="flex gap-[15px] ">
       <img
-        src="/about.jpg"
+        src="about.jpg"
         className="h-[32px] w-[32px] rounded-[32px]"
         alt=""
       />
