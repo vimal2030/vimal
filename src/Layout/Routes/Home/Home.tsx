@@ -4,6 +4,7 @@ import { Address } from "../Address/Address";
 import Menu from "../Menu/Menu";
 import EmblaCarousel from "../components/EmblaCarousel";
 import { Footer } from "../Footer/Footer";
+import Contact from "../Contact/Contact";
 
 const Home = () => {
   const slides = [
@@ -49,6 +50,7 @@ const Home = () => {
       <About about={about} />
       <Menu />
       <Testimony />
+      <Contact />
       <Footer />
     </>
   );

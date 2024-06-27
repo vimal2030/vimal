@@ -4,10 +4,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        brown: "#c49b63",
+        brown: "#39b54a",
         gray: "gray",
         borderBtm: "rgba(255, 255, 255, 0.1)",
-        bg: "rgba(0, 0, 0, 0.5)",
+        bg: "rgba(255, 255, 255, 0.4)",
         even: "#b08b59",
         insta: "#ee2a7b",
       },

@@ -1,23 +1,26 @@
 export const Footer = () => {
   return (
-    <div className="px-[30px] pt-[50px] pb-[100px]  capitalize text-justify flex flex-col  md:flex-row md:justify-around">
+    <div
+      id="contact"
+      className="px-[30px] pt-[50px] pb-[100px]  capitalize text-justify flex flex-col  md:flex-row md:justify-around"
+    >
       <div className="md:w-[300px]">
-        <p className="text-[25px] font-[400]">Sign up with OTP</p>
+        <p className="text-[25px] font-[400] text-brown">Sign up with OTP</p>
         <div className=" ">
-          <p className="pt-[30px] pb-[15px]">
+          <p className="pt-[30px] pb-[15px] text-bg">
             "Discover the flavors of our authentic, mouthwatering biryani by
             signing up today!"
           </p>
-          <button className="px-20 py-2 border capitalize border-brown bg-brown text-black rounded-[3px] hover:text-brown hover:bg-transparent hover:transition-all hover:border ">
+          <button className="px-20 py-2 border capitalize border-brown bg-brown text-white rounded-[3px] hover:text-brown hover:bg-transparent hover:transition-all hover:border ">
             sign up
           </button>
         </div>
       </div>
       <div>
-        <p className="pt-[25px] md:pt-0 text-[25px] font-[400]">
+        <p className="pt-[25px] md:pt-0 text-[25px] font-[400] text-brown">
           support links
         </p>
-        <div className="py-[25px] flex flex-col ">
+        <div className="py-[25px] flex flex-col [&>a]:text-bg ">
           <a href="" className="py-[5px] hover:text-brown">
             privacy policy
           </a>
@@ -33,11 +36,11 @@ export const Footer = () => {
         </div>
       </div>
       <div>
-        <p className="text-[25px] font-[400]">contact</p>
-        <div className="pt-[25px] flex flex-col md:w-[300px] [&>p]:py-[5px] ">
+        <p className="text-[25px] font-[400] text-brown">contact</p>
+        <div className="pt-[25px] flex flex-col md:w-[300px] [&>p]:py-[5px] [&>*]:text-bg ">
           <p className="">
-            <span className="mr-1">chennai:</span>Cloud Kitchen Opp to koyambedu
-            bus stand, jai nagar, 2nd main road, arumbakkam
+            <span className="mr-1 ">chennai:</span>Cloud Kitchen Opp to
+            koyambedu bus stand, jai nagar, 2nd main road, arumbakkam
           </p>
           <p>
             Email:

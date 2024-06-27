@@ -32,7 +32,9 @@ export const Address: React.FC<AddressProps> = ({ address }) => {
                 alt=""
               />
               <div className=" w-custom">
-                <p className="text-[17px] font-[600]">+91 {addr.phone}</p>
+                <p className="text-[17px] text-white font-[600]">
+                  +91 {addr.phone}
+                </p>
                 <p className=" text-gray text-justify">{addr.desc}</p>
               </div>
             </div>
@@ -46,7 +48,9 @@ export const Address: React.FC<AddressProps> = ({ address }) => {
                 alt=""
               />
               <div>
-                <p className="text-[17px] font-[600]">{addr.title}</p>
+                <p className="text-[17px] font-[600] text-white">
+                  {addr.title}
+                </p>
                 <p className=" text-gray text-justify">{addr.address}</p>
               </div>
             </div>
@@ -60,7 +64,7 @@ export const Address: React.FC<AddressProps> = ({ address }) => {
                 alt=""
               />
               <div>
-                <p className="text-[17px] font-[600]">{addr.days}</p>
+                <p className="text-[17px] font-[600] text-white">{addr.days}</p>
                 <p className=" text-gray text-justify">{addr.time}</p>
               </div>
             </div>

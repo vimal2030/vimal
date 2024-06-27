@@ -12,7 +12,7 @@ export const BottomBar = () => {
   return (
     <>
       {/* mobile bottom bar*/}
-      <div className="z-[3] p-[10px] text-[12px] flex items-center justify-evenly fixed bg-black shadow-shadow bottom-0 md:hidden w-full uppercase">
+      <div className="z-[3] text-white p-[10px] text-[12px] flex items-center justify-evenly fixed bg-black shadow-shadow bottom-0 md:hidden w-full uppercase">
         {navLinks.map((link, index) => {
           return (
             <a
@@ -37,7 +37,7 @@ export const BottomBar = () => {
           <span>Cart</span>
         </a>
 
-        <a href="" className="text-brown  flex flex-col items-center gap-[3px]">
+        <a href="" className="  flex flex-col items-center gap-[3px]">
           <span>
             <img
               src="about.jpg"

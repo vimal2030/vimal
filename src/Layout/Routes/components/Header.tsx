@@ -18,23 +18,29 @@ export const Header = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-  const navLinks = ["Home", "Menu", "About", "Contact"];
+  const navLinks = ["home", "menu", "contact"];
   return (
     <nav
-      className={`w-[100%] h-[40px]  bg-black md:h-[80px] md:bg-transparent flex justify-center border-b-[1px] border-borderBtm z-[2]  px-[2rem] py-[1.5rem] md:py-[0.9rem] md:px-[5rem] 
-        ${isFixed ? "fixed animate-slide-down backdrop-blur" : "absolute"}`}
+      className={`py-[30px] w-[100%] h-[40px]  bg-black md:h-[80px] md:bg-transparent flex justify-center border-b-[1px] border-borderBtm z-[2]   
+        ${
+          isFixed
+            ? "fixed animate-slide-down backdrop-blur border-b-2 border-brown shadow-shadow"
+            : "absolute"
+        }`}
     >
       <div className="w-[100dvw] flex items-center justify-between">
-        <div className="flex flex-col items-center font-[700] leading-none">
-          <span className="text-[16px] md:text-[22px]">THOOKU</span>
-          <span className=" text-[14px] md:text-[18px]">BIRYANI</span>
+        <div className="flex flex-col items-center font-[700] leading-none pl-[20px]">
+          <span className="text-[16px] text-brown md:text-[22px]">THOOKU</span>
+          <span className=" text-[14px] text-white  md:text-[18px]">
+            BIRYANI
+          </span>
         </div>
         <div className="hidden md:flex gap-[60px] items-center w-[600px] uppercase">
           {navLinks.map((link, index) => {
             return (
               <a
-                className="no-underline text-[13px] hover:text-brown hover:transition-all"
-                href=""
+                className="no-underline font-bold text-[13px] text-brown hover:text-brown hover:transition-all"
+                href={"#" + link}
                 key={index}
               >
                 {link}
@@ -52,7 +58,7 @@ export const Header = () => {
 
             <a
               href=""
-              className="px-4 py-3 border border-brown bg-brown text-black rounded-[3px] hover:text-brown hover:bg-transparent hover:transition-all hover:border "
+              className="px-9 py-2 border font-bold border-brown bg-brown text-black rounded-[3px] hover:text-brown hover:bg-transparent hover:transition-all hover:border "
             >
               SignUp
             </a>
